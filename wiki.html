@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> <!-- Cabeçalho = introduz algo -->
+        <h1> Estudo do HTML </h1>
+        <h3> Conceitos introdutórios da linguagem </h3>
+        <nav> <!-- Agrupa links de navegação -->
+            <ol>
+                <li><a href="#intro"> Introducao </a></li>
+            </ol>
+        </nav>
+    </header>
+    <main> <!-- Conteudo principal da pagina -->
+        <section> <!-- Separa topicos ou conteudos -->
+            <h3>Uso de tags</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, et nostrum? Corporis maxime, delectus tempore officia pariatur porro rerum autem iure vel? Consequatur aperiam aspernatur molestiae labore delectus quis dolor alias exercitationem dolorum excepturi? Deleniti dolorum velit sapiente cumque aliquam.</p>
+        </section>
+        <section>
+            <h3>Uso de tabelas</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, et nostrum? Corporis maxime, delectus tempore officia pariatur porro rerum autem iure vel? Consequatur aperiam aspernatur molestiae labore delectus quis dolor alias exercitationem dolorum excepturi? Deleniti dolorum velit sapiente cumque aliquam.</p>
+        </section>
+        <section>
+            <h3>Uso de tabelas</h3>
+            <table border="1" cellpadding="3" style="border-collapse: collapse">
+                <thead> <!-- Cabeçalho da tabela -->
+                    <tr>
+                        <th colspan="4">Usuários</th>
+                    </tr>
+                    <tr> <!-- table row -->
+                        <th>Tipo</th>
+                        <th>Nome</th> <!-- Table head -->
+                        <th>CPF</th>
+                        <th>Data Nascimento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Funcionario</td>
+                        <td>Daniel Assuncao</td> <!-- Table Data-->
+                        <td>000.000.000-00</td>
+                        <td>15/06/1989</td>
+                    </tr>
+                    <tr>
+                        <td>Lucas Freitas</td> <!-- Table Data-->
+                        <td>000.000.000-00</td>
+                        <td>07/12/1990</td>
+                    </tr>
+                    <tr>
+                        <td rowspan = "2">Cliente</td>
+                        <td>Ana Celia</td> <!-- Table Data-->
+                        <td>000.000.000-00</td>
+                        <td>07/10/1992</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>Ana Celia</td> <!-- Table Data-->
+                        <td>000.000.000-00</td>
+                        <td>07/10/1992</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr/>
+            <table border="1" cellpadding="3" style="border-collapse: collapse">
+                <tr>
+                    <td colspan="2">Celula 1-1</td>
+                    <td>Celula 1-3</td>
+                </tr>
+                <tr>
+                    <td>Celula 2-1</td>
+                    <td>Celula 2-2</td>
+                    <td>Celula 2-3</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <hr/> <!-- horizontal rule -->
+    <footer> <!-- Autoria/encerra o conteúdo-->
+        ©
+        <script>
+            document.write(new Date().getFullYear())
+        </script>
+        Soulcode Academy
+    </footer>
+</body>
+</html>
