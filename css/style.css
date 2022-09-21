@@ -1,0 +1,44 @@
+p {
+    color: green;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+body {
+    background-color: navy;
+    font-family: 'Montserrat', sans-serif; /* fallback */
+}
+/* 
+TIPOES DE SELETOR BÁSICO
+1) Por elemento
+2) Por id (#) => estilização unica
+3) Por class (.) => estilização p/ varios
+*/
+h1, h2, h3 {
+    color: white;
+}
+
+/* Uso id qdo qr estilizar elemento especifico */
+#meu-h1 {
+    font-weight: 100;
+}
+
+/*Posso aplicar a class em diversos elementos diferentes*/
+
+.cabecalho {
+    color: crimson;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.quadrado {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    border-radius: 32px;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 16px;
+}
