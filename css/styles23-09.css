@@ -1,0 +1,90 @@
+* {
+    /* Garante que os elementos respeitem as dimensões quando possuem padding e border
+    */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.my-button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 6px 4px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.my-button:hover {
+    background-color: rgba(90, 131, 90, 0.664)
+}
+
+.my-button-azul {
+    background-color: cornflowerblue;
+}
+
+.my-button-azul:hover {
+    background-color: rgba(100, 148, 237, 0.733);
+}
+
+.my-table {
+    width: 400px;
+    border-collapse: collapse;
+    margin: auto; /* so funciona com width */
+}
+
+.my-table td, .my-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.my-table th {
+    background-color: cornflowerblue;
+    padding: 12px 0;
+    color: white;
+}
+
+.my-table tr:hover {
+    background-color: #ddd;
+}
+
+.my-table tr:nth-child(even) {
+    background-color: #c96161;
+}
+
+.my-table td {
+    text-align: center;
+}
+
+/* CUSTOM FORM */
+.my-form {
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    padding: 20px 16px;
+    width: 300px;
+    margin:auto;
+}
+
+.my-form input {
+    width: 100%;
+    padding: 12px 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.toda-largura {
+    width: 100%;
+    margin: 6px 0;
+}
+
+.my-form-group {
+    margin-bottom: 6px;
+}
+
+::placeholder {
+    color: green;
+}
